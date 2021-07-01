@@ -1,0 +1,4 @@
+import configparser
+
+git coconfig = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
+config.read('../config/config.ini');
