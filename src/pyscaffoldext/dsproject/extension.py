@@ -79,6 +79,7 @@ def add_dsproject(struct: Structure, opts: ScaffoldOpts) -> ActionParams:
                 add_permissions(stat.S_IXUSR, NO_OVERWRITE),
             )
         },
+        "Makefile" : template("Makefile"),
     }
 
     return merge(struct, files), opts
