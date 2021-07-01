@@ -60,7 +60,7 @@ def add_dsproject(struct: Structure, opts: ScaffoldOpts) -> ActionParams:
     gitignore_all = (template("gitignore_all"), NO_OVERWRITE)
 
     files: Structure = {
-        "configs": {".gitignore": ("", NO_OVERWRITE)},
+        "configs": (template("config_ini"), NO_OVERWRITE),
         "data": {
             ".gitignore": (template("gitignore_data"), NO_OVERWRITE),
             **{

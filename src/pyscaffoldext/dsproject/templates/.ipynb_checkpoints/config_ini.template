@@ -1,0 +1,12 @@
+[default]
+    project_dir =
+    model_bucket =
+
+[parameters]
+
+[download]
+
+[upload]
+    raw_data_path = ${default:project_dir}/raw/
+    interim_data_path = ${default:project_dir}/interim/
+    processed_data_path = ${default:project_dir}/processed/
