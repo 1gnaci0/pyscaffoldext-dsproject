@@ -49,3 +49,5 @@ MANIFEST
 
 # Per-project virtualenvs
 .venv*/
+/src/pyscaffoldext/dsproject/templates/.ipynb_checkpoints/
+/pip-wheel-metadata/
