@@ -97,7 +97,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "logging.basicConfig(level=config['default']['logging_level'], stream=sys.stdout)"
+    "logging.basicConfig(level=int(config['default']['logging_level']), stream=sys.stdout)"
    ]
   },
   {
