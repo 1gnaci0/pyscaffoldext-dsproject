@@ -1,6 +1,6 @@
 [default]
-    project_dir =
-    model_bucket =
+    logging_level: 20
+    project_dir:
 
 [parameters]
 
